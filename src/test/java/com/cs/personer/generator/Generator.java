@@ -17,7 +17,6 @@ public class Generator {
     public static void main(String[] args) {
 
         List<String> warnings = new ArrayList<>();
-        boolean overwrite = true;
         File configFile = new File("C:\\WorkSpace\\Java\\personer\\src\\test\\resources\\generatorConfig.xml");
 
         ConfigurationParser cp = new ConfigurationParser(warnings);
@@ -27,7 +26,7 @@ public class Generator {
         } catch (IOException | XMLParserException e) {
             e.printStackTrace();
         }
-        DefaultShellCallback callback = new DefaultShellCallback(overwrite);
+        DefaultShellCallback callback = new DefaultShellCallback(true);
         try {
             MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config,
                     callback, warnings);
@@ -39,11 +38,5 @@ public class Generator {
         System.out.println("生成Mybatis配置成功！");
 
     }
-
-    /**
-     * mybatis generator&#x751f;&#x6210;&#x6ce8;&#x91ca;&#x63d2;&#x4ef6;
-     * <p>
-     * Created by huhaichao on 2017/5/15.
-     */
 
 }
