@@ -59,6 +59,21 @@ spring:
     host: localhost
     port: 6379
 
+  #邮箱配置
+  mail:
+    host: smtp.qq.com
+    username: 1783461699@qq.com
+    #QQ邮箱的授权码
+    password: xxxxxxxx
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
 server:
   port: 7771
 #mybatis配置
