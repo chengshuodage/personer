@@ -35,7 +35,11 @@ public class AuthorityInterceptor implements HandlerInterceptor {
     @Override
     @SuppressWarnings("unchecked")
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        Method method = ((HandlerMethod) handler).getMethod();
+        if (!(handler instanceof HandlerMethod)) {
+            return true;
+        }
+        HandlerMethod handlerMethod = (HandlerMethod) handler;
+        Method method = handlerMethod.getMethod();
         FreeLogin freeLogin = method.getAnnotation(FreeLogin.class);
         if (freeLogin != null && freeLogin.value()) {
             return true;
@@ -45,7 +49,7 @@ public class AuthorityInterceptor implements HandlerInterceptor {
         try {
             userMap = JwtTokenUtil.parseJWT(token, JwtTokenUtil.BASE64SECRET);
         } catch (Exception e) {
-            log.error(e.getMessage());
+            log.error("请求接口:" + request.getRequestURI() + ",错误信息" + e.getMessage());
             throw new ValidateException("token解析错误!");
         }
         if ((LocalDateTime.parse((String) userMap.get(JwtTokenUtil.EXPIRE_TIME))).isBefore(LocalDateTime.now())) {
