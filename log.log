@@ -42,3 +42,1050 @@
 2019-07-07 09:20:00 [main] INFO  [com.cs.personer.config.MailService] - 测试邮件。
 2019-07-07 09:20:00 [Thread-2] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Shutting down ExecutorService 'taskScheduler'
 2019-07-07 09:20:00 [Thread-2] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-07 11:07:44 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 11:07:45 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 9220 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 11:07:45 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 11:07:45 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 11:07:45 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 11:07:45 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 11:07:45 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 11:07:45 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 11:07:45 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-07-07 11:07:46 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$647b6a1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 11:07:46 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 11:07:46 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1488 ms
+2019-07-07 11:07:46 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 11:07:47 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 11:07:47 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 11:07:47 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 11:07:47 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 11:07:47 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 11:07:47 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.071 seconds (JVM running for 4.954)
+2019-07-07 11:08:12 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 11:08:12 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 6 ms
+2019-07-07 11:08:12 [http-nio-7771-exec-1] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-07-07 11:08:12 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-07 11:08:12 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
+2019-07-07 11:08:12 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
+2019-07-07 11:09:14 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 11:09:14 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 16180 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 11:09:14 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 11:09:14 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 11:09:15 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 11:09:15 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 11:09:15 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 11:09:15 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 11:09:15 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-07-07 11:09:16 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d2cdd755] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 11:09:16 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 11:09:16 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1531 ms
+2019-07-07 11:09:16 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 11:09:17 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 11:09:17 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 11:09:17 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 11:09:17 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 11:09:17 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 11:09:17 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.063 seconds (JVM running for 4.204)
+2019-07-07 11:09:21 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 11:09:21 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 0 ms
+2019-07-07 11:09:21 [http-nio-7771-exec-1] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-07-07 11:09:21 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-07 11:09:21 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123(String)
+2019-07-07 11:09:21 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 0
+2019-07-07 11:09:21 [http-nio-7771-exec-1] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 用户名或密码不正确
+2019-07-07 11:09:21 [http-nio-7771-exec-1] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [com.cs.personer.exception.ValidateException: 用户名或密码不正确]
+2019-07-07 11:09:26 [http-nio-7771-exec-2] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-07 11:09:26 [http-nio-7771-exec-2] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), (String)
+2019-07-07 11:09:26 [http-nio-7771-exec-2] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 0
+2019-07-07 11:09:26 [http-nio-7771-exec-2] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 用户名或密码不正确
+2019-07-07 11:09:26 [http-nio-7771-exec-2] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [com.cs.personer.exception.ValidateException: 用户名或密码不正确]
+2019-07-07 11:09:33 [http-nio-7771-exec-3] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-07 11:09:33 [http-nio-7771-exec-3] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
+2019-07-07 11:09:33 [http-nio-7771-exec-3] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
+2019-07-07 11:12:12 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 11:12:12 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 8128 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 11:12:12 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 11:12:12 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 11:12:12 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 11:12:12 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 11:12:13 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 11:12:13 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 11:12:13 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-07-07 11:12:13 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34d5e41c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 11:12:14 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 11:12:14 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1595 ms
+2019-07-07 11:12:14 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 11:12:14 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 11:12:15 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 11:12:15 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 11:12:15 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 11:12:15 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 11:12:15 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.197 seconds (JVM running for 4.209)
+2019-07-07 11:12:18 [http-nio-7771-exec-4] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 11:12:18 [http-nio-7771-exec-4] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 7 ms
+2019-07-07 11:12:18 [http-nio-7771-exec-4] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 密码不能为空
+2019-07-07 11:12:18 [http-nio-7771-exec-4] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [com.cs.personer.exception.ValidateException: 密码不能为空]
+2019-07-07 11:12:24 [http-nio-7771-exec-1] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-07-07 11:12:24 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-07 11:12:24 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 1258(String)
+2019-07-07 11:12:24 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 0
+2019-07-07 11:12:24 [http-nio-7771-exec-1] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 用户名或密码不正确
+2019-07-07 11:12:24 [http-nio-7771-exec-1] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [com.cs.personer.exception.ValidateException: 用户名或密码不正确]
+2019-07-07 11:29:55 [Thread-5] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Shutting down ExecutorService 'taskScheduler'
+2019-07-07 11:29:55 [Thread-5] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-07 11:29:55 [Thread-5] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-07-07 11:29:55 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 11:29:55 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 11:29:55 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 8128 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 11:29:55 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 11:29:55 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 11:29:55 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 11:29:55 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 11:29:55 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-07-07 11:29:55 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34d5e41c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 11:29:55 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 11:29:55 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 531 ms
+2019-07-07 11:29:56 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 11:29:56 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 11:29:56 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 11:29:56 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 11:29:56 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 11:29:56 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 11:29:56 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 1.063 seconds (JVM running for 1065.388)
+2019-07-07 11:29:56 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2019-07-07 11:39:58 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 11:39:58 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 15060 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 11:39:58 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 11:39:58 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 11:39:58 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 11:39:58 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 11:39:59 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 11:39:59 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 11:39:59 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2019-07-07 11:40:00 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$10874363] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 11:40:00 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 11:40:00 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2090 ms
+2019-07-07 11:40:00 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 11:40:01 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 11:40:02 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 11:40:02 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 11:40:02 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 11:40:02 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 11:40:02 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 4.479 seconds (JVM running for 5.514)
+2019-07-07 11:40:13 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 11:40:13 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 10 ms
+2019-07-07 11:40:13 [http-nio-7771-exec-1] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-07-07 11:40:13 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-07 11:40:14 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 1258(String)
+2019-07-07 11:40:14 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 0
+2019-07-07 11:40:14 [http-nio-7771-exec-1] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 用户名或密码不正确
+2019-07-07 11:40:14 [http-nio-7771-exec-1] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [com.cs.personer.exception.ValidateException: 用户名或密码不正确]
+2019-07-07 11:40:23 [http-nio-7771-exec-2] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-07 11:40:23 [http-nio-7771-exec-2] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
+2019-07-07 11:40:23 [http-nio-7771-exec-2] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
+2019-07-07 11:42:03 [Thread-6] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Shutting down ExecutorService 'taskScheduler'
+2019-07-07 11:42:03 [Thread-6] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-07 11:42:03 [Thread-6] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-07-07 11:42:03 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 11:42:03 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 11:42:03 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 15060 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 11:42:03 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 11:42:03 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 11:42:04 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 11:42:04 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 11:42:04 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-07-07 11:42:04 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$10874363] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 11:42:04 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 11:42:04 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 766 ms
+2019-07-07 11:42:04 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 11:42:05 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 11:42:05 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 11:42:05 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 11:42:05 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 11:42:05 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 11:42:05 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 1.806 seconds (JVM running for 128.706)
+2019-07-07 11:42:05 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2019-07-07 12:46:02 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 12:46:02 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 13272 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 12:46:02 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 12:46:02 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 12:46:02 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 12:46:02 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 12:46:03 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 12:46:03 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 12:46:03 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-07-07 12:46:03 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7ff906a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 12:46:03 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 12:46:04 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1579 ms
+2019-07-07 12:46:04 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 12:46:04 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 12:46:04 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 12:46:05 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 12:46:05 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 12:46:05 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 12:46:05 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.1 seconds (JVM running for 4.339)
+2019-07-07 12:46:14 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 12:46:14 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 7 ms
+2019-07-07 12:46:15 [http-nio-7771-exec-1] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-07-07 12:46:15 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-07 12:46:15 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
+2019-07-07 12:46:15 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
+2019-07-07 12:46:15 [http-nio-7771-exec-1] ERROR [org.springframework.web.servlet.HandlerExecutionChain] - HandlerInterceptor.afterCompletion threw exception
+java.lang.NullPointerException
+	at com.cs.personer.config.CurrentUserInfo.remove(CurrentUserInfo.java:25)
+	at com.cs.personer.config.interceptor.AuthorityInterceptor.afterCompletion(AuthorityInterceptor.java:72)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:174)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1134)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.cs.personer.config.ReplaceStreamFilter.doFilterInternal(ReplaceStreamFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-07-07 12:47:13 [http-nio-7771-exec-2] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-07 12:47:13 [http-nio-7771-exec-2] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: demoData(String), demoData(String)
+2019-07-07 12:47:13 [http-nio-7771-exec-2] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 0
+2019-07-07 12:47:13 [http-nio-7771-exec-2] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 用户名或密码不正确
+2019-07-07 12:47:13 [http-nio-7771-exec-2] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [com.cs.personer.exception.ValidateException: 用户名或密码不正确]
+2019-07-07 12:47:13 [http-nio-7771-exec-2] ERROR [org.springframework.web.servlet.HandlerExecutionChain] - HandlerInterceptor.afterCompletion threw exception
+java.lang.NullPointerException
+	at com.cs.personer.config.CurrentUserInfo.remove(CurrentUserInfo.java:25)
+	at com.cs.personer.config.interceptor.AuthorityInterceptor.afterCompletion(AuthorityInterceptor.java:72)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:174)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1134)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.cs.personer.config.ReplaceStreamFilter.doFilterInternal(ReplaceStreamFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-07-07 12:47:28 [http-nio-7771-exec-4] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-07 12:47:28 [http-nio-7771-exec-4] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
+2019-07-07 12:47:28 [http-nio-7771-exec-4] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
+2019-07-07 12:47:28 [http-nio-7771-exec-4] ERROR [org.springframework.web.servlet.HandlerExecutionChain] - HandlerInterceptor.afterCompletion threw exception
+java.lang.NullPointerException
+	at com.cs.personer.config.CurrentUserInfo.remove(CurrentUserInfo.java:25)
+	at com.cs.personer.config.interceptor.AuthorityInterceptor.afterCompletion(AuthorityInterceptor.java:72)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:174)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1134)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.cs.personer.config.ReplaceStreamFilter.doFilterInternal(ReplaceStreamFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-07-07 12:48:50 [http-nio-7771-exec-5] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-07 12:48:50 [http-nio-7771-exec-5] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
+2019-07-07 12:48:50 [http-nio-7771-exec-5] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
+2019-07-07 12:48:50 [http-nio-7771-exec-5] ERROR [org.springframework.web.servlet.HandlerExecutionChain] - HandlerInterceptor.afterCompletion threw exception
+java.lang.NullPointerException
+	at com.cs.personer.config.CurrentUserInfo.remove(CurrentUserInfo.java:25)
+	at com.cs.personer.config.interceptor.AuthorityInterceptor.afterCompletion(AuthorityInterceptor.java:72)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:174)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1134)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.cs.personer.config.ReplaceStreamFilter.doFilterInternal(ReplaceStreamFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-07-07 12:49:06 [http-nio-7771-exec-6] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 12:49:06 [http-nio-7771-exec-6] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 12:49:06 [http-nio-7771-exec-6] ERROR [org.springframework.web.servlet.HandlerExecutionChain] - HandlerInterceptor.afterCompletion threw exception
+java.lang.NullPointerException
+	at com.cs.personer.config.CurrentUserInfo.remove(CurrentUserInfo.java:25)
+	at com.cs.personer.config.interceptor.AuthorityInterceptor.afterCompletion(AuthorityInterceptor.java:72)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:174)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1134)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.cs.personer.config.ReplaceStreamFilter.doFilterInternal(ReplaceStreamFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-07-07 12:50:05 [http-nio-7771-exec-7] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 12:50:05 [http-nio-7771-exec-7] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 12:50:05 [http-nio-7771-exec-7] ERROR [org.springframework.web.servlet.HandlerExecutionChain] - HandlerInterceptor.afterCompletion threw exception
+java.lang.NullPointerException
+	at com.cs.personer.config.CurrentUserInfo.remove(CurrentUserInfo.java:25)
+	at com.cs.personer.config.interceptor.AuthorityInterceptor.afterCompletion(AuthorityInterceptor.java:72)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:174)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1134)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.cs.personer.config.ReplaceStreamFilter.doFilterInternal(ReplaceStreamFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-07-07 12:50:53 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 12:50:53 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 5548 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 12:50:53 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 12:50:53 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 12:50:53 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 12:50:53 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 12:50:54 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 12:50:54 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 12:50:54 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-07-07 12:50:54 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1f273681] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 12:50:55 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 12:50:55 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1567 ms
+2019-07-07 12:50:55 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 12:50:55 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 12:50:56 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 12:50:56 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 12:50:56 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 12:50:56 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 12:50:56 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.056 seconds (JVM running for 4.138)
+2019-07-07 12:50:59 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 12:50:59 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 7 ms
+2019-07-07 12:50:59 [http-nio-7771-exec-2] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 12:50:59 [http-nio-7771-exec-2] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 12:50:59 [http-nio-7771-exec-2] ERROR [org.springframework.web.servlet.HandlerExecutionChain] - HandlerInterceptor.afterCompletion threw exception
+java.lang.NullPointerException
+	at com.cs.personer.config.CurrentUserInfo.remove(CurrentUserInfo.java:25)
+	at com.cs.personer.config.interceptor.AuthorityInterceptor.afterCompletion(AuthorityInterceptor.java:72)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:174)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1134)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.cs.personer.config.ReplaceStreamFilter.doFilterInternal(ReplaceStreamFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-07-07 12:53:04 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 12:53:04 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 15372 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 12:53:04 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 12:53:04 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 12:53:04 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 12:53:04 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 12:53:05 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 12:53:05 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 12:53:05 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-07-07 12:53:05 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$396ad1fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 12:53:06 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 12:53:06 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1548 ms
+2019-07-07 12:53:06 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 12:53:06 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 12:53:07 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 12:53:07 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 12:53:07 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 12:53:07 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 12:53:07 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.132 seconds (JVM running for 4.21)
+2019-07-07 12:53:14 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 12:53:14 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 6 ms
+2019-07-07 12:53:14 [http-nio-7771-exec-1] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 12:53:14 [http-nio-7771-exec-1] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 12:53:14 [http-nio-7771-exec-1] ERROR [org.springframework.web.servlet.HandlerExecutionChain] - HandlerInterceptor.afterCompletion threw exception
+java.lang.NullPointerException
+	at com.cs.personer.config.CurrentUserInfo.getUserInfo(CurrentUserInfo.java:17)
+	at com.cs.personer.config.interceptor.AuthorityInterceptor.afterCompletion(AuthorityInterceptor.java:73)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:174)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1134)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.cs.personer.config.ReplaceStreamFilter.doFilterInternal(ReplaceStreamFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-07-07 12:54:40 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 12:54:41 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 12048 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 12:54:41 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 12:54:41 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 12:54:41 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 12:54:41 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 12:54:41 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 12:54:41 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 12:54:41 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-07-07 12:54:42 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3042b15a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 12:54:42 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 12:54:42 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1395 ms
+2019-07-07 12:54:42 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 12:54:43 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 12:54:43 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 12:54:43 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 12:54:43 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 12:54:43 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 12:54:43 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 2.767 seconds (JVM running for 3.686)
+2019-07-07 12:54:44 [http-nio-7771-exec-3] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 12:54:44 [http-nio-7771-exec-3] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 8 ms
+2019-07-07 12:54:44 [http-nio-7771-exec-3] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 12:54:44 [http-nio-7771-exec-3] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 12:54:44 [http-nio-7771-exec-3] ERROR [org.springframework.web.servlet.HandlerExecutionChain] - HandlerInterceptor.afterCompletion threw exception
+java.lang.NullPointerException
+	at com.cs.personer.config.CurrentUserInfo.getUserInfo(CurrentUserInfo.java:17)
+	at com.cs.personer.config.interceptor.AuthorityInterceptor.afterCompletion(AuthorityInterceptor.java:72)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:174)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1134)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.cs.personer.config.ReplaceStreamFilter.doFilterInternal(ReplaceStreamFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-07-07 12:56:30 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 12:56:30 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 9904 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 12:56:30 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 12:56:30 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 12:56:30 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 12:56:30 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 12:56:31 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 12:56:31 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 12:56:31 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-07-07 12:56:31 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc180920] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 12:56:32 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 12:56:32 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1413 ms
+2019-07-07 12:56:32 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 12:56:32 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 12:56:33 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 12:56:33 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 12:56:33 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 12:56:33 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 12:56:33 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 2.699 seconds (JVM running for 3.635)
+2019-07-07 12:57:13 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 12:57:13 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 6 ms
+2019-07-07 12:57:14 [http-nio-7771-exec-1] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - class java.lang.String cannot be cast to class java.time.LocalDateTime (java.lang.String and java.time.LocalDateTime are in module java.base of loader 'bootstrap')
+2019-07-07 12:57:14 [http-nio-7771-exec-1] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.ClassCastException: class java.lang.String cannot be cast to class java.time.LocalDateTime (java.lang.String and java.time.LocalDateTime are in module java.base of loader 'bootstrap')]
+2019-07-07 12:57:52 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 12:57:52 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 14648 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 12:57:52 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 12:57:53 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 12:57:53 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 12:57:53 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 12:57:53 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 12:57:53 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 12:57:53 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-07-07 12:57:54 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e652ab8e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 12:57:54 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 12:57:54 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1569 ms
+2019-07-07 12:57:54 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 12:57:55 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 12:57:55 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 12:57:55 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 12:57:55 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 12:57:55 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 12:57:55 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.126 seconds (JVM running for 4.191)
+2019-07-07 12:58:21 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 12:58:21 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 7 ms
+2019-07-07 12:58:21 [http-nio-7771-exec-2] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - class java.lang.String cannot be cast to class java.time.LocalDateTime (java.lang.String and java.time.LocalDateTime are in module java.base of loader 'bootstrap')
+2019-07-07 12:58:21 [http-nio-7771-exec-2] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.ClassCastException: class java.lang.String cannot be cast to class java.time.LocalDateTime (java.lang.String and java.time.LocalDateTime are in module java.base of loader 'bootstrap')]
+2019-07-07 13:03:20 [http-nio-7771-exec-3] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - class java.lang.String cannot be cast to class java.time.LocalDateTime (java.lang.String and java.time.LocalDateTime are in module java.base of loader 'bootstrap')
+2019-07-07 13:03:20 [http-nio-7771-exec-3] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.ClassCastException: class java.lang.String cannot be cast to class java.time.LocalDateTime (java.lang.String and java.time.LocalDateTime are in module java.base of loader 'bootstrap')]
+2019-07-07 13:03:24 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 13:03:24 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 9196 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 13:03:24 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 13:03:24 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 13:03:25 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 13:03:25 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 13:03:25 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 13:03:25 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 13:03:25 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-07-07 13:03:26 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$31bf0de7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 13:03:26 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 13:03:26 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1555 ms
+2019-07-07 13:03:26 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 13:03:27 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 13:03:27 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 13:03:27 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 13:03:27 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 13:03:27 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 13:03:27 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.058 seconds (JVM running for 4.131)
+2019-07-07 13:03:30 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 13:03:30 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 8 ms
+2019-07-07 13:03:38 [http-nio-7771-exec-1] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 13:03:38 [http-nio-7771-exec-1] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 13:04:24 [http-nio-7771-exec-3] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 13:04:24 [http-nio-7771-exec-3] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 13:09:07 [http-nio-7771-exec-4] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 13:09:07 [http-nio-7771-exec-4] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 13:09:11 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 13:09:11 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 9056 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 13:09:11 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 13:09:11 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 13:09:11 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 13:09:11 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 13:09:12 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 13:09:12 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 13:09:12 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-07-07 13:09:12 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$483abf1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 13:09:12 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 13:09:12 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1570 ms
+2019-07-07 13:09:13 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 13:09:13 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 13:09:14 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 13:09:14 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 13:09:14 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 13:09:14 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 13:09:14 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.297 seconds (JVM running for 4.381)
+2019-07-07 13:09:23 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 13:09:23 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 7 ms
+2019-07-07 13:09:24 [http-nio-7771-exec-2] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - class com.alibaba.fastjson.JSONObject cannot be cast to class java.lang.String (com.alibaba.fastjson.JSONObject is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+2019-07-07 13:09:24 [http-nio-7771-exec-2] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.ClassCastException: class com.alibaba.fastjson.JSONObject cannot be cast to class java.lang.String (com.alibaba.fastjson.JSONObject is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')]
+2019-07-07 13:10:12 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 13:10:12 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 2292 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 13:10:12 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 13:10:12 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 13:10:12 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 13:10:12 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 13:10:13 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 13:10:13 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 13:10:13 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-07-07 13:10:13 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$28111ef4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 13:10:14 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 13:10:14 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1575 ms
+2019-07-07 13:10:14 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 13:10:14 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 13:10:15 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 13:10:15 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 13:10:15 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 13:10:15 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 13:10:15 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.121 seconds (JVM running for 4.14)
+2019-07-07 13:10:24 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 13:10:24 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 6 ms
+2019-07-07 13:10:44 [http-nio-7771-exec-2] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 13:10:44 [http-nio-7771-exec-2] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 13:11:21 [http-nio-7771-exec-3] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 13:11:21 [http-nio-7771-exec-3] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 13:11:56 [http-nio-7771-exec-4] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 13:11:56 [http-nio-7771-exec-4] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 13:12:23 [http-nio-7771-exec-6] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 13:12:23 [http-nio-7771-exec-6] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 13:12:28 [http-nio-7771-exec-5] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 13:12:28 [http-nio-7771-exec-5] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 13:14:50 [http-nio-7771-exec-9] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 13:14:50 [http-nio-7771-exec-9] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 13:15:58 [http-nio-7771-exec-10] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - 
+2019-07-07 13:15:58 [http-nio-7771-exec-10] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [java.lang.NullPointerException]
+2019-07-07 13:16:03 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 13:16:03 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 2400 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 13:16:03 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 13:16:03 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 13:16:03 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 13:16:03 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 13:16:04 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 13:16:04 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 13:16:04 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-07-07 13:16:04 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c42483b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 13:16:05 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 13:16:05 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1586 ms
+2019-07-07 13:16:05 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 13:16:05 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 13:16:06 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 13:16:06 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 13:16:06 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 13:16:06 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 13:16:06 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.162 seconds (JVM running for 4.2)
+2019-07-07 13:16:08 [http-nio-7771-exec-3] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 13:16:08 [http-nio-7771-exec-3] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 6 ms
+2019-07-07 13:16:51 [http-nio-7771-exec-2] ERROR [com.cs.personer.config.interceptor.AuthorityInterceptor] - JWT strings must contain exactly 2 period characters. Found: 0
+2019-07-07 13:16:51 [http-nio-7771-exec-2] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - token解析错误!
+2019-07-07 13:16:51 [http-nio-7771-exec-2] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [com.cs.personer.exception.ValidateException: token解析错误!]
+2019-07-07 13:17:50 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 13:17:50 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 17096 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 13:17:50 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 13:17:50 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 13:17:50 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 13:17:50 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 13:17:51 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 13:17:51 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 13:17:51 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-07-07 13:17:51 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e6dc51d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 13:17:52 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 13:17:52 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1673 ms
+2019-07-07 13:17:52 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 13:17:53 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 13:17:53 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 13:17:53 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 13:17:53 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 13:17:53 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 13:17:53 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.269 seconds (JVM running for 4.327)
+2019-07-07 13:17:54 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 13:17:54 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 7 ms
+2019-07-07 13:18:06 [http-nio-7771-exec-4] ERROR [com.cs.personer.config.interceptor.AuthorityInterceptor] - JWT String argument cannot be null or empty.
+2019-07-07 13:18:06 [http-nio-7771-exec-4] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - token解析错误!
+2019-07-07 13:18:06 [http-nio-7771-exec-4] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [com.cs.personer.exception.ValidateException: token解析错误!]
+2019-07-07 13:18:07 [http-nio-7771-exec-6] ERROR [com.cs.personer.config.interceptor.AuthorityInterceptor] - JWT String argument cannot be null or empty.
+2019-07-07 13:18:07 [http-nio-7771-exec-6] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - token解析错误!
+2019-07-07 13:18:07 [http-nio-7771-exec-6] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [com.cs.personer.exception.ValidateException: token解析错误!]
+2019-07-07 13:18:08 [http-nio-7771-exec-5] ERROR [com.cs.personer.config.interceptor.AuthorityInterceptor] - JWT String argument cannot be null or empty.
+2019-07-07 13:18:08 [http-nio-7771-exec-5] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - token解析错误!
+2019-07-07 13:18:08 [http-nio-7771-exec-5] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [com.cs.personer.exception.ValidateException: token解析错误!]
+2019-07-07 13:18:39 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 13:18:39 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 7136 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 13:18:39 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 13:18:39 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 13:18:39 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 13:18:39 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 13:18:40 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 13:18:40 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 13:18:40 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-07-07 13:18:40 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e97f6e88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 13:18:40 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 13:18:41 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1738 ms
+2019-07-07 13:18:41 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 13:18:41 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 13:18:42 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 13:18:42 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 13:18:42 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 13:18:42 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 13:18:42 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.266 seconds (JVM running for 4.298)
+2019-07-07 13:18:42 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 13:18:42 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 9 ms
+2019-07-07 13:20:15 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 13:20:16 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 5376 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 13:20:16 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 13:20:16 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 13:20:16 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 13:20:16 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 13:20:17 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 13:20:17 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 13:20:17 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-07-07 13:20:17 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d559b68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 13:20:17 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 13:20:18 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1720 ms
+2019-07-07 13:20:18 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 13:20:18 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 13:20:18 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 13:20:19 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 13:20:19 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 13:20:19 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 13:20:19 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.259 seconds (JVM running for 4.294)
+2019-07-07 13:20:19 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 13:20:19 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 7 ms
+2019-07-07 13:20:19 [http-nio-7771-exec-2] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - token过期,请重新登录!
+2019-07-07 13:20:19 [http-nio-7771-exec-2] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [com.cs.personer.exception.ValidateException: token过期,请重新登录!]
+2019-07-07 13:20:25 [http-nio-7771-exec-3] ERROR [com.cs.personer.config.interceptor.AuthorityInterceptor] - JWT String argument cannot be null or empty.
+2019-07-07 13:20:25 [http-nio-7771-exec-3] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - token解析错误!
+2019-07-07 13:20:25 [http-nio-7771-exec-3] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [com.cs.personer.exception.ValidateException: token解析错误!]
+2019-07-07 13:20:37 [http-nio-7771-exec-4] ERROR [com.cs.personer.config.interceptor.AuthorityInterceptor] - JWT String argument cannot be null or empty.
+2019-07-07 13:20:37 [http-nio-7771-exec-4] ERROR [com.cs.personer.exception.GlobalExceptionHandler] - token解析错误!
+2019-07-07 13:20:37 [http-nio-7771-exec-4] WARN  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] - Resolved [com.cs.personer.exception.ValidateException: token解析错误!]
+2019-07-07 13:21:30 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-07 13:21:30 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 12776 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-07 13:21:30 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 13:21:30 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-07 13:21:30 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-07 13:21:30 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-07 13:21:31 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-07 13:21:31 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-07 13:21:31 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-07-07 13:21:31 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1073f926] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-07 13:21:32 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-07 13:21:32 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1593 ms
+2019-07-07 13:21:32 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-07 13:21:32 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-07 13:21:33 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-07 13:21:33 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-07 13:21:33 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-07 13:21:33 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-07 13:21:33 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.194 seconds (JVM running for 4.198)
+2019-07-07 13:21:33 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-07 13:21:33 [http-nio-7771-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 7 ms
+2019-07-07 13:21:33 [http-nio-7771-exec-1] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-07-07 13:21:33 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-07 13:21:33 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
+2019-07-07 13:21:33 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
