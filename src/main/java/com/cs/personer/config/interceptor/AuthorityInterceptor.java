@@ -7,7 +7,6 @@ import com.cs.personer.exception.ValidateException;
 import com.cs.personer.model.UserInfo;
 import com.cs.personer.utils.JwtTokenUtil;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
@@ -49,7 +48,7 @@ public class AuthorityInterceptor implements HandlerInterceptor {
             log.error(e.getMessage());
             throw new ValidateException("token解析错误!");
         }
-        if ((LocalDateTime.parse((String)userMap.get(JwtTokenUtil.EXPIRE_TIME))).isBefore(LocalDateTime.now())) {
+        if ((LocalDateTime.parse((String) userMap.get(JwtTokenUtil.EXPIRE_TIME))).isBefore(LocalDateTime.now())) {
             throw new ValidateException("token过期,请重新登录!");
         }
         UserInfo userInfo = JSON.parseObject(JSON.toJSONString(userMap), UserInfo.class);
