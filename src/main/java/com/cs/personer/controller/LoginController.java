@@ -1,6 +1,6 @@
 package com.cs.personer.controller;
 
-import com.cs.personer.model.response.ResultEntity;
+import com.cs.personer.model.response.ResponseEntity;
 import com.cs.personer.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +15,7 @@ public class LoginController {
     private LoginService loginService;
 
     @GetMapping
-    public ResultEntity login(@RequestParam String username, @RequestParam String password) {
-        return ResultEntity.success(loginService.login(username, password));
+    public ResponseEntity login(@RequestParam String username, @RequestParam String password) {
+        return ResponseEntity.success(loginService.login(username, password));
     }
 }
