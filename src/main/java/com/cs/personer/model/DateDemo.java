@@ -1,6 +1,5 @@
 package com.cs.personer.model;
 
-import com.alibaba.fastjson.annotation.JSONField;
 import lombok.Data;
 
 import java.time.LocalDate;
