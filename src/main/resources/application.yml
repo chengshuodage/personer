@@ -13,12 +13,12 @@ spring:
       driver-class-name: com.mysql.cj.jdbc.Driver
       filters: stat,wall,log4j
       maxActive: 20
-      initialSize: 1
+      initialSize: 5
       maxWait: 60000
-      minIdle: 1
+      minIdle: 5
       timeBetweenEvictionRunsMillis: 60000
       minEvictableIdleTimeMillis: 300000
-      validationQuery: select 'x'
+      validationQuery: SELECT 1 FROM DUAL
       testWhileIdle: true
       testOnBorrow: false
       testOnReturn: false

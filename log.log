@@ -866,3 +866,97 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'scheduledTas
 2019-07-09 21:31:17 [http-nio-7771-exec-9] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
 2019-07-09 21:31:17 [http-nio-7771-exec-9] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
 2019-07-09 21:31:17 [http-nio-7771-exec-9] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
+2019-07-09 22:34:47 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.17.Final
+2019-07-09 22:34:48 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Starting PersonerApplication on Jack with PID 14188 (C:\WorkSpace\Java\personer\target\classes started by Jack in C:\WorkSpace\Java\personer)
+2019-07-09 22:34:48 [restartedMain] DEBUG [com.cs.personer.PersonerApplication] - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-09 22:34:48 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - No active profile set, falling back to default profiles: default
+2019-07-09 22:34:48 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-09 22:34:48 [restartedMain] INFO  [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-09 22:34:49 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-09 22:34:49 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-09 22:34:49 [restartedMain] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-07-09 22:34:49 [restartedMain] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ebfcbd97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-09 22:34:50 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7771 (http)
+2019-07-09 22:34:50 [restartedMain] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1845 ms
+2019-07-09 22:34:50 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'com.cs.personer.config.ReplaceStreamFilter' configured for use
+2019-07-09 22:34:50 [restartedMain] DEBUG [com.cs.personer.config.ReplaceStreamFilter] - Filter 'replaceStreamFilter' configured for use
+2019-07-09 22:34:50 [restartedMain] INFO  [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-09 22:34:51 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-09 22:34:51 [restartedMain] INFO  [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2019-07-09 22:34:51 [restartedMain] WARN  [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-09 22:34:51 [restartedMain] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'
+2019-07-09 22:34:51 [restartedMain] INFO  [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] - Context refreshed
+2019-07-09 22:34:51 [restartedMain] INFO  [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] - Found 1 custom documentation plugin(s)
+2019-07-09 22:34:51 [restartedMain] INFO  [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] - Scanning for api listing references
+2019-07-09 22:34:51 [restartedMain] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 7771 (http) with context path ''
+2019-07-09 22:34:51 [restartedMain] INFO  [com.cs.personer.PersonerApplication] - Started PersonerApplication in 3.765 seconds (JVM running for 4.842)
+2019-07-09 22:35:00 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-07-09 22:35:00 [http-nio-7771-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 8 ms
+2019-07-09 22:35:01 [scheduling-1] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-07-09 22:35:01 [scheduling-1] ERROR [druid.sql.Statement] - {conn-10001, pstmt-20000} execute error. INSERT INTO shedlock(name, lock_until, locked_at, locked_by) VALUES(?, ?, ?, ?)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'scheduledTaskName' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:955)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1094)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1042)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1345)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1027)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:2797)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_executeUpdate(FilterAdapter.java:1069)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeUpdate(FilterEventAdapter.java:491)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:2795)
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_executeUpdate(WallFilter.java:634)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:2795)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_executeUpdate(FilterAdapter.java:1069)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeUpdate(FilterEventAdapter.java:491)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:2795)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeUpdate(PreparedStatementProxyImpl.java:163)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeUpdate(DruidPooledPreparedStatement.java:253)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$0(JdbcTemplate.java:866)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:861)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:916)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.lambda$insertRecord$1(JdbcTemplateStorageAccessor.java:65)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.insertRecord(JdbcTemplateStorageAccessor.java:63)
+	at net.javacrumbs.shedlock.support.StorageBasedLockProvider.doLock(StorageBasedLockProvider.java:77)
+	at net.javacrumbs.shedlock.support.StorageBasedLockProvider.lock(StorageBasedLockProvider.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205)
+	at com.sun.proxy.$Proxy58.lock(Unknown Source)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:51)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:40)
+	at net.javacrumbs.shedlock.core.DefaultLockManager.executeWithLock(DefaultLockManager.java:51)
+	at net.javacrumbs.shedlock.core.LockableRunnable.run(LockableRunnable.java:35)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-07-09 22:35:33 [http-nio-7771-exec-9] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-09 22:35:33 [http-nio-7771-exec-9] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
+2019-07-09 22:35:33 [http-nio-7771-exec-9] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
+2019-07-09 22:35:41 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-09 22:35:41 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
+2019-07-09 22:35:41 [http-nio-7771-exec-1] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
+2019-07-09 22:35:41 [http-nio-7771-exec-10] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-09 22:35:41 [http-nio-7771-exec-10] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
+2019-07-09 22:35:41 [http-nio-7771-exec-10] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
+2019-07-09 22:35:42 [http-nio-7771-exec-3] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-09 22:35:42 [http-nio-7771-exec-3] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
+2019-07-09 22:35:42 [http-nio-7771-exec-3] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
+2019-07-09 22:35:49 [http-nio-7771-exec-8] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-09 22:35:49 [http-nio-7771-exec-8] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
+2019-07-09 22:35:49 [http-nio-7771-exec-8] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
+2019-07-09 22:35:52 [http-nio-7771-exec-3] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==>  Preparing: select * from user_info where username = ? and password = ? 
+2019-07-09 22:35:52 [http-nio-7771-exec-3] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - ==> Parameters: admin(String), 123456(String)
+2019-07-09 22:35:52 [http-nio-7771-exec-3] DEBUG [com.cs.personer.dao.UserInfoMapper.getByUsernameAndPassword] - <==      Total: 1
