@@ -25,6 +25,7 @@ public class ReplaceStreamFilter extends OncePerRequestFilter {
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response,
                                     FilterChain filterChain) throws IOException, ServletException {
         ServletRequest requestWrapper = new BodyReaderHttpServletRequestWrapper(request);
+        requestWrapper.setCharacterEncoding("UTF-8");
         filterChain.doFilter(requestWrapper, response);
     }
 }
