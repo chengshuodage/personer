@@ -1,8 +1,12 @@
 package com.cs.personer.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class UserInfo {
     /**
      * 用户流水号
@@ -29,16 +33,5 @@ public class UserInfo {
      */
     private String remark;
 
-    public UserInfo(Integer id, String username, String password, Integer age, String remark) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-        this.age = age;
-        this.remark = remark;
-    }
-
-    public UserInfo() {
-        super();
-    }
 
 }

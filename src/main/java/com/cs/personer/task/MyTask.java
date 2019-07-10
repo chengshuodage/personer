@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 public class MyTask {
 
     @Scheduled(fixedDelay = 10 * 1000 /**ms**/, initialDelay = 10 * 1000)
-    @SchedulerLock(name = "scheduledTaskName")
+//    @SchedulerLock(name = "scheduledTaskName")
     public void reportCurrentTime() {
         if (false) {
             log.info("现在时间：" + LocalDateTime.now());
