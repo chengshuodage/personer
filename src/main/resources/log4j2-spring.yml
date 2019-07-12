@@ -1,0 +1,64 @@
+Configuration:
+  status: warn
+  monitorInterval: 30
+
+  Properties: # 定义全局变量
+    Property:
+    - name: filepath
+      value: "./log4j2"
+    - name: project
+      value: "system"
+
+  Appenders:
+    Console:
+      name: CONSOLE
+      target: SYSTEM_OUT
+      PatternLayout:
+        pattern: "%d %highlight{%5level} [%thread] %class: %msg%xEx%n"
+      Filters:
+        # 一定要先去除不接受的日志级别，然后获取需要接受的日志级别
+        ThresholdFilter:
+        - level: debug
+          onMatch: ACCEPT
+          onMismatch: DENY
+    # 启动日志
+    RollingFile:
+      name: ROLLING_FILE
+      fileName: ${filepath}/${project}.log
+      filePattern: "${filepath}/$${date:yyyy-MM}/${project}-%d{yyyy-MM-dd}-%i.log.gz"
+      PatternLayout:
+        pattern: "%d %highlight{%5level} [%thread] %class: %msg%xEx%n"
+      Filters:
+        # 一定要先去除不接受的日志级别，然后获取需要接受的日志级别
+        ThresholdFilter:
+        - level: error
+          onMatch: ACCEPT
+          onMismatch: DENY
+      Policies:
+        TimeBasedTriggeringPolicy: # 按天分类
+          modulate: true
+          interval: 1
+      DefaultRolloverStrategy: # 文件最多100个
+        max: 100
+
+  Loggers:
+    Root:
+      level: info
+      AppenderRef:
+      - ref: CONSOLE
+      - ref: ROLLING_FILE
+    Logger:
+    - name: com.cs.personer.dao
+      additivity: false
+      level: debug
+      AppenderRef:
+      - ref: CONSOLE
+      - ref: ROLLING_FILE
+    - name: com.cs.personer.PersonerApplicationTests
+      additivity: false
+      level: debug
+      AppenderRef:
+      - ref: CONSOLE
+      - ref: ROLLING_FILE
+
+

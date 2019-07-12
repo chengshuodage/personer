@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.cs.personer.anno.FreeLogin;
 import com.cs.personer.config.CurrentUserInfo;
 import com.cs.personer.model.UserInfo;
-import com.cs.personer.model.response.ResponseEntity;
+import com.cs.personer.model.response.ResultEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,8 +19,8 @@ public class TestController {
 
     @GetMapping
     @FreeLogin(false)
-    public ResponseEntity testLogin() {
+    public ResultEntity testLogin() {
         UserInfo userInfo = currentUserInfo.getUserInfo();
-        return ResponseEntity.success(JSON.toJSON(userInfo));
+        return ResultEntity.success(JSON.toJSON(userInfo));
     }
 }

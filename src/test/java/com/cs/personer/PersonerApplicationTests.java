@@ -27,7 +27,9 @@ public class PersonerApplicationTests {
 
     @Test
     public void contextLoads() {
-
+        log.info("Info");
+        log.error("error");
+        log.debug("debug");
     }
 
     @Test

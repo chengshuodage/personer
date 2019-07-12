@@ -2,7 +2,7 @@ package com.cs.personer.controller;
 
 import com.cs.personer.event.UserInfoEvent;
 import com.cs.personer.model.UserInfo;
-import com.cs.personer.model.response.ResponseEntity;
+import com.cs.personer.model.response.ResultEntity;
 import com.cs.personer.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -20,14 +20,14 @@ public class LoginController {
     ApplicationContext applicationContext;
 
     @GetMapping
-    public ResponseEntity login(@RequestParam String username, @RequestParam String password) {
-        return ResponseEntity.success(loginService.login(username, password));
+    public ResultEntity login(@RequestParam String username, @RequestParam String password) {
+        return ResultEntity.success(loginService.login(username, password));
     }
 
     @GetMapping("/testEvent")
-    public ResponseEntity testEvent() {
+    public ResultEntity testEvent() {
         UserInfo userInfo = new UserInfo(1, "张三", "123456789", 12, "优秀的人");
         applicationContext.publishEvent(new UserInfoEvent(this, userInfo));
-        return ResponseEntity.success("事件发布成功!");
+        return ResultEntity.success("事件发布成功!");
     }
 }
