@@ -2,7 +2,7 @@ spring:
   application:
     name: springbootmybatis
   profiles:
-    active: dev
+    active: local
   encoding:
       charset: UTF-8
       enabled: true

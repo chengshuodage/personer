@@ -3,6 +3,7 @@ package com.cs.personer.config.interceptor;
 import com.alibaba.fastjson.JSON;
 import com.cs.personer.anno.FreeLogin;
 import com.cs.personer.config.CurrentUserInfo;
+import com.cs.personer.exception.UserLoginException;
 import com.cs.personer.exception.ValidateException;
 import com.cs.personer.model.UserInfo;
 import com.cs.personer.utils.JwtTokenUtil;
@@ -44,7 +45,8 @@ public class AuthorityInterceptor implements HandlerInterceptor {
         if (freeLogin != null && freeLogin.value()) {
             return true;
         }
-        String token = request.getHeader("token");
+        String token = Optional.ofNullable(request.getHeader("token"))
+                .orElseThrow(()-> new UserLoginException("未登录!"));
         Map userMap;
         try {
             userMap = JwtTokenUtil.parseJWT(token, JwtTokenUtil.BASE64SECRET);

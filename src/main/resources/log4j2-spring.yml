@@ -14,11 +14,16 @@ Configuration:
       name: CONSOLE
       target: SYSTEM_OUT
       PatternLayout:
-        pattern: "%d %highlight{%5level} [%thread] %class: %msg%xEx%n"
+        pattern: "%d %highlight{%-5level} [%thread] %class: %msg%xEx%n"
       Filters:
         # 一定要先去除不接受的日志级别，然后获取需要接受的日志级别
         ThresholdFilter:
         - level: debug
+          onMatch: ACCEPT
+          onMismatch: DENY
+        # 数据库日志输出到控制台
+        MarkerFilter:
+        - marker: DB
           onMatch: ACCEPT
           onMismatch: DENY
     # 启动日志
@@ -27,7 +32,7 @@ Configuration:
       fileName: ${filepath}/${project}.log
       filePattern: "${filepath}/$${date:yyyy-MM}/${project}-%d{yyyy-MM-dd}-%i.log.gz"
       PatternLayout:
-        pattern: "%d %highlight{%5level} [%thread] %class: %msg%xEx%n"
+        pattern: "%d %highlight{%-5level} [%thread] %class: %msg%xEx%n"
       Filters:
         # 一定要先去除不接受的日志级别，然后获取需要接受的日志级别
         ThresholdFilter:
