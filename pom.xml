@@ -13,6 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>personer</name>
     <description>SpringBoot-Mybatis-Mysql</description>
+    <packaging>jar</packaging>
 
     <properties>
         <java.version>11</java.version>
@@ -186,8 +187,14 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <!--打jar包启动类-->
+                <configuration>
+                    <mainClass>com.cs.personer.PersonerApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
+        <!--jar包名-->
+        <finalName>MySpringBoot</finalName>
     </build>
 
 </project>
