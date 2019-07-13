@@ -19,7 +19,6 @@ public class LogAppender {
     @Autowired
     private Connect connect;
 
-
     /**
      * 动态修改配置文件,增加日志Appender
      * 1.建立表字段与对应log4j线程变量对应关系
@@ -108,6 +107,5 @@ public class LogAppender {
         config.getLoggerConfig("ROOT").addAppender(jdbcAppender, Level.INFO, null);
         context.updateLoggers();
     }
-
 
 }
