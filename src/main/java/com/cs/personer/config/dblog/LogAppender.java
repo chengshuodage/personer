@@ -69,7 +69,9 @@ public class LogAppender {
                 ColumnConfig.newBuilder()
                         .setConfiguration(config)
                         .setName("detail")
-                        .setPattern("%message}")
+                        //格式 :带类名+方法名+msg
+//                        .setPattern("%c.%M: %message")
+                        .setPattern("%message")
                         .setLiteral(null)
                         .setEventTimestamp(false)
                         .setUnicode(false)
