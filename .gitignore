@@ -19,6 +19,8 @@ target/
 *.iml
 *.ipr
 *.log
+*.log.gz
+
 
 ### NetBeans ###
 /nbproject/private/
@@ -30,3 +32,8 @@ build/
 
 ### VS Code ###
 .vscode/
+log4j2/2019-07/
+src/main/resources/templates/
+src/test/java/com/cs/personer/dao/
+src/test/java/com/cs/personer/model/
+src/test/resources/mapper/
