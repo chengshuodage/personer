@@ -2,10 +2,8 @@ package com.cs.personer.config.dblog;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.core.Appender;
 import org.apache.logging.log4j.core.Filter;
 import org.apache.logging.log4j.core.LoggerContext;
-import org.apache.logging.log4j.core.appender.db.ColumnMapping;
 import org.apache.logging.log4j.core.appender.db.jdbc.ColumnConfig;
 import org.apache.logging.log4j.core.appender.db.jdbc.JdbcAppender;
 import org.apache.logging.log4j.core.config.Configuration;
@@ -30,7 +28,6 @@ public class LogAppender {
      */
     @PostConstruct
     public void init() {
-        //为false时，返回多个LoggerContext对象，true：返回唯一的单例LoggerContext
         LoggerContext context = (LoggerContext) LogManager.getContext(false);
         Configuration config = context.getConfiguration();
         ColumnConfig[] columnConfigs = {

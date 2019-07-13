@@ -27,6 +27,9 @@ public class LogAspect {
     @Autowired
     private CurrentUserInfo currentUserInfo;
 
+    /**
+     * 默认值"000000"
+     */
     @Value("${log.system.id:000000}")
     private String systemId;
 
