@@ -1,28 +1,8 @@
 spring:
   application:
     name: springbootmybatis
-  datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
-    mysql:
-      type: com.alibaba.druid.pool.DruidDataSource
-      url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
-      username: root
-      password: 123456
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      filters: stat,wall,log4j2
-      maxActive: 20
-      initialSize: 5
-      maxWait: 60000
-      minIdle: 5
-      timeBetweenEvictionRunsMillis: 60000
-      minEvictableIdleTimeMillis: 300000
-      validationQuery: SELECT 1 FROM DUAL
-      testWhileIdle: true
-      testOnBorrow: false
-      testOnReturn: false
-      poolPreparedStatements: true
-      maxOpenPreparedStatements: 20
-      logSlowSql: true
+  profiles:
+    active: dev
   encoding:
       charset: UTF-8
       enabled: true
@@ -49,8 +29,6 @@ spring:
             enable: true
             required: true
 
-server:
-  port: 7771
 #mybatis配置
 mybatis:
   mapperLocations: classpath:mapper/*Mapper.xml
