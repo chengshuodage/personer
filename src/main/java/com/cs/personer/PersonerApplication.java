@@ -5,6 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 import java.util.TimeZone;
@@ -17,6 +18,8 @@ import java.util.TimeZone;
 // filter和servlet、listener之类的需要单独进行注册才能使用，
 // spring boot里面提供了该注解起到注册作用
 @ServletComponentScan
+//开启缓存
+//@EnableCaching
 @EnableScheduling
 @EnableSchedulerLock(defaultLockAtMostFor = "PT30S")
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})

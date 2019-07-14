@@ -1,0 +1,37 @@
+@RestController
+public class HouseController {
+
+    @Autowired
+    private HouseRepository houseRepository;
+
+    //http://localhost:8888/saveHouse?id=1&houseName=别墅&houseSize=1220平方米
+    @GetMapping("/saveHouse")
+    @CachePut(value = "house", key = "#result.id")
+    public House saveHouse(Integer id,String houseName,String houseSize){
+        House house = new House(id,houseName, houseSize);
+        houseRepository.save(house);
+        return house;
+    }
+
+    //http://localhost:8888/queryHouse?id=1
+    @GetMapping("/queryHouse")
+    @Cacheable(value = "house", key = "#id")
+    public House queryHouse(Integer id){
+        House house = houseRepository.findOne(id);
+        return house;
+    }
+
+    //http://localhost:8888/deleteHouse?id=1
+    @GetMapping("/deleteHouse")
+    @CacheEvict(value = "house", key = "#id")
+    public String deleteHouse(Integer id){
+        houseRepository.delete(id);
+        return "success";
+    }
+
+    //http://localhost:8888/deleteCache
+    @GetMapping("/deleteCache")
+    @CacheEvict(value = "house", allEntries = true)
+    public void deleteCache() {
+    }
+}
